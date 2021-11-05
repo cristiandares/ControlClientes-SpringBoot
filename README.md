@@ -4,6 +4,9 @@ _Esta aplicacion es de control de clientes_
 
 _En esta ocación presento una aplicación de control de clientes creada con **SpringBoot**, **Thymeleaf**, **HTML** y **CSS**_
 
+![img_](https://user-images.githubusercontent.com/63164753/140562093-c97dd5aa-ef9f-4ecb-b700-da1456701068.PNG)
+
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
