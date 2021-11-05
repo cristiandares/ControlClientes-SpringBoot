@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+      <!--esta vista sive para guardar un elemento nuevo en la database o tambien sirve para editar
+        los objetos en la base de datos, dependiente de lo que se solicite-->
+    <head th:replace="layout/plantilla :: head">
+        <title>Datos de la Persona</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <!-- con la siguiente linea lo que hacemos es incrustar el html de otra pagina
+             haciendo el uso del nombre header que se le dió-->
+        <header th:replace="layout/plantilla :: header"></header>
+        
+        <section th:replace="layout/editarCliente :: editarCliente"></section>
+        <!-- con la siguiente linea lo que hacemos es incrustar el html de otra pagina
+             haciendo el uso del nombre footer que se le dió-->
+        <footer th:replace="layout/plantilla :: footer"></footer>    
+
+       
+        
+    </body>
+</html>
